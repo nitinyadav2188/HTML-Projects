@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: burlywood;
+    overflow-x: none;
+    background-image: linear-gradient(to bottom, #f3e7e9 0%, #e3eeff 50%, #e3eeff 100%);
+}
+
+.navcontainer {
+    width: 100vw;
+    min-height: 100px;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 4px solid linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius:0px 0px 20px 20px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+#navList {
+    width: 100%;
+   /*  margin-left: 15px;
+    margin-right: 15px; */
+    padding: 15px;
+    list-style: none;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#navLogo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    overflow-x: none;
+    color:white;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+#navitems{
+    display: flex;
+    gap: 40px;
+
+}
+.footerbox{
+    border: 4px solid linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius:20px 20px 0px 0px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    color: azure;
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+    
+}
+.footerbox p{
+    color: azure;
+    font-size: 1.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+.contentbox{
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid bisque;
+    border-radius: 20px; */
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: bisque;
+    gap: 100px;
+    margin: 10px;
+
+}
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(154, 240, 131);
+    gap: 100px;
+    margin: 10px;
+
+}
+.rightbox img{
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 15px 15px 0.5 black;
+}
+.xyz{
+    background-color: aquamarine;
+    border: 8px solid aquamarine;
+    border-radius: 20px;
+    margin: 0px 10px 5px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.rate{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
